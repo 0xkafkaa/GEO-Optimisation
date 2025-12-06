@@ -9,6 +9,7 @@
 - https://dl.acm.org/doi/pdf/10.1145/3637528.3671900
 - https://arxiv.org/pdf/2509.08919  
 ** High-Performing GEO Methods
+[[./images/Screenshot 2025-12-06 at 9.22.32 PM.png]]
 Here's how each technique measured up:
 - Embedding expert quotes: +41%
 - Adding clear statistics: +30%
@@ -35,27 +36,6 @@ Non-Performing Methods
 Strategies commonly used in traditional Search Engine Optimization (SEO) were found to be ineffective for GEO:
 8. Keyword Stuffing: Modifies content to include more keywords from the query. This offered little to no improvement on generative engine responses, underscoring the need to rethink optimization strategies for GEs.
 9. Unique Words: Involves adding unique terms wherever possible. This method did not show strong performance improvements.
-#+CAPTION: Absolute impression metrics of GEO methods on GEO-Bench.
-|----------------------------------------+-----------------------------+--------------------------------------------------------------|
-| Method                                 | Position-Adjusted Word Count |                           Subjective Impression              |
-|                                        | Word | Position | Overall    | Rel. | Infl. | Unique | Div. | FollowUp | Pos. | Count | Average |
-|----------------------------------------+-------+----------+------------+------+-------+--------+------+-----------+------+--------+---------|
-| *Performance without Generative Engine Optimization*                                                                                  |
-| No Optimization                        | 19.5 | 19.3     | 19.3       | 19.3 | 19.3  | 19.3   | 19.3 | 19.3      | 19.3 | 19.3  | 19.3    |
-|----------------------------------------+-------+----------+------------+------+-------+--------+------+-----------+------+--------+---------|
-| *Non-Performing Generative Engine Optimization methods*                                                                               |
-| Keyword Stuffing                       | 17.8 | 17.7     | 17.7       | 19.8 | 19.1  | 20.5   | 20.4 | 20.3      | 20.5 | 20.4  | 20.2    |
-| Unique Words                           | 20.7 | 20.5     | 20.5       | 20.5 | 20.1  | 19.9   | 20.4 | 20.2      | 20.7 | 20.2  | 20.4    |
-|----------------------------------------+-------+----------+------------+------+-------+--------+------+-----------+------+--------+---------|
-| *High-Performing Generative Engine Optimization methods*                                                                             |
-| Easy-to-Understand                     | 22.2 | 22.4     | 22.0       | 20.2 | 21.0  | 20.0   | 20.1 | 20.1      | 20.9 | 19.9  | 20.5    |
-| Authoritative                          | 21.8 | 21.3     | 21.3       | 22.3 | 22.1  | 22.4   | 23.1 | 22.2      | 23.1 | 22.7  | 22.9    |
-| Technical Terms                        | 23.1 | 22.7     | 22.7       | 20.9 | 21.7  | 20.5   | 21.2 | 20.8      | 21.9 | 20.8  | 21.4    |
-| Fluency Optimization                   | 25.1 | 24.6     | 24.7       | 21.1 | 22.9  | 20.4   | 21.6 | 21.0      | 22.4 | 21.1  | 21.9    |
-| Cite Sources                           | 24.9 | 24.5     | 24.6       | 21.4 | 22.5  | 21.0   | 21.6 | 21.2      | 22.2 | 20.7  | 21.9    |
-| Quotation Addition                     | 27.8 | 27.3     | 27.2       | 23.8 | 25.4  | 23.9   | 24.4 | 22.9      | 24.9 | 23.2  | 24.7    |
-| Statistics Addition                    | 25.9 | 25.4     | 25.2       | 22.5 | 24.5  | 23.0   | 23.3 | 21.6      | 24.2 | 23.0  | 23.7    |
-|----------------------------------------+-------+----------+------------+------+-------+--------+------+-----------+------+--------+---------|
 
 * Demo
 - https://youtu.be/iVCISHmD3Mg
