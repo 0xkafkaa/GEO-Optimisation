@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GEO Optimizer</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>GEO Optimizer</h1>
+            <p>Get SEO & Geo Optimization Advice</p>
+        </header>
+
+        <main>
+            <form id="urlForm">
+                <div class="input-group">
+                    <input type="url" id="urlInput" placeholder="https://example.com" required>
+                    <button type="submit">Get SEO & Geo Optimization Advice</button>
+                </div>
+            </form>
+
+            <div id="loading" class="hidden">
+                <div class="spinner"></div>
+                <p>Fetching metadata...</p>
+            </div>
+
+            <div id="result" class="hidden">
+                <div class="card">
+                    <div class="card-image">
+                        <img id="metaImage" src="" alt="Site Preview">
+                    </div>
+                    <div class="card-content">
+                        <h2 id="metaTitle"></h2>
+                        <p id="metaDescription"></p>
+                        <p id="metaKeywords" class="keywords"></p>
+                        <a id="metaLink" href="#" target="_blank" class="visit-link">Visit Website</a>
+                        <div class="prompts-section">
+                            <button id="generatePromptsBtn" class="secondary-btn">Generate Search Prompts</button>
+                            <div id="promptsResult" class="hidden">
+                                <h3>Potential User Search Prompts:</h3>
+                                <ul id="promptsList"></ul>
+                            </div>
+                        </div>
+
+                        <div class="seo-section">
+                            <button id="seoBtn" class="primary-btn">Get SEO & Geo Optimization Advice</button>
+                            <div id="seoResult" class="hidden">
+                                <h3>SEO Recommendations</h3>
+                                <div id="seoContent" class="seo-content"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div id="error" class="hidden">
+                <p id="errorMessage"></p>
+            </div>
+        </main>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
