@@ -1,0 +1,69 @@
+# -------------------------
+# Node.js
+# -------------------------
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Dependency directories
+jspm_packages/
+
+# -------------------------
+# Environment Variables
+# -------------------------
+.env
+.env*.local
+
+# -------------------------
+# Build & Output
+# -------------------------
+dist/
+build/
+.out/
+.next/
+.nuxt/
+.cache/
+.temp/
+coverage/
+*.tsbuildinfo
+
+# -------------------------
+# Logs
+# -------------------------
+logs/
+*.log
+*.log.*
+
+# -------------------------
+# Runtime data
+# -------------------------
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# -------------------------
+# OS / Editor junk
+# -------------------------
+.DS_Store
+Thumbs.db
+
+# VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+!.vscode/launch.json
+!.vscode/tasks.json
+
+# WebStorm / JetBrains
+.idea/
+
+# -------------------------
+# Misc
+# -------------------------
+*.swp
+*.swo
+*.tmp
+
