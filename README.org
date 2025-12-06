@@ -1,6 +1,3 @@
-:PROPERTIES:
-:ID:       273B6EA5-969A-433B-B85F-FE2CAAEBEB6F
-:END:
 #+title: B2L-December2025
 #+options: toc:nil num:nil
 * Generative Engine Optimization - Prelim Research
@@ -13,15 +10,15 @@
 - https://arxiv.org/pdf/2509.08919  
 ** High-Performing GEO Methods
 Here's how each technique measured up:
-- **Embedding expert quotes:** +41%
-- **Adding clear statistics:** +30%
-- **Including inline citations:** +30%
-- **Improving readability / fluency:** +22%
-- **Using domain-specific jargon:** +21%
-- **Simplifying language:** +15%
-- **Authoritative voice:** +11%
-- **Using rare synonyms:** 0% (Neutral)
-- **Keyword stuffing:** -9% (Negative)
+- Embedding expert quotes: +41%
+- Adding clear statistics: +30%
+- Including inline citations: +30%
+- Improving readability / fluency: +22%
+- Using domain-specific jargon: +21%
+- Simplifying language: +15%
+- Authoritative voice: +11%
+- Using rare synonyms: 0% (Neutral)
+- Keyword stuffing: -9% (Negative)
 The most successful GEO methods require minimal content changes but significantly improve visibility by enhancing the credibility and richness of the content, achieving relative improvements of 30–40% on the Position-Adjusted Word Count metric and 15–30% on the Subjective Impression metric.
 1. Quotation Addition: Adds relevant quotations from credible sources. This was shown to be the best overall single method, improving upon the baseline by up to 41% on the Position-Adjusted Word Count metric. It is particularly effective in domains like ‘People & Society,’ ‘Explanation,’ and ‘History,’ where direct quotes add authenticity and depth.
 2. Statistics Addition: Modifies content to include quantitative statistics instead of qualitative discussion, wherever possible. This method showed strong performance improvements across metrics. Data-driven evidence is beneficial in domains like ‘Law & Government’ and for question types like ‘Opinion’.
@@ -61,5 +58,5 @@ Strategies commonly used in traditional Search Engine Optimization (SEO) were fo
 |----------------------------------------+-------+----------+------------+------+-------+--------+------+-----------+------+--------+---------|
 
 * Demo
-- [[https://youtu.be/iVCISHmD3Mg][https://img.youtube.com/vi/iVCISHmD3Mg/hqdefault.jpg]]
+- https://youtu.be/iVCISHmD3Mg
 
