@@ -7,7 +7,7 @@
 ** Existing Products
 - https://waikay.io
 - https://aiclicks.io
-- https://www.babygrowth.ai
+- https://www.babylovegrowth.ai/en
 ** Reseach Papers
 - https://dl.acm.org/doi/pdf/10.1145/3637528.3671900
 - https://arxiv.org/pdf/2509.08919  
